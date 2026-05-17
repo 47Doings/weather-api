@@ -2,20 +2,20 @@
 
 A simple Weather API built with FastAPI that fetches real-time weather data and uses Redis caching to improve performance and reduce API calls.
 
----
 
-## 🚀 Features
 
-- 🌍 Get current weather by city name
-- ⚡ Redis caching for fast responses
-- ⏱ Cache expiration tracking (TTL)
-- 🔄 External weather API integration (Visual Crossing)
-- 🛡️ Proper error handling (invalid city, API failure, server issues)
-- 📦 Clean modular backend structure
+## Features
 
----
+- Get current weather by city name
+- Redis caching for fast responses
+- Cache expiration tracking (TTL)
+- External weather API integration (Visual Crossing)
+- Proper error handling (invalid city, API failure, server issues)
+- Clean modular backend structure
 
-## 🏗 Tech Stack
+
+
+## Tech Stack
 
 - Python
 - FastAPI
@@ -23,9 +23,9 @@ A simple Weather API built with FastAPI that fetches real-time weather data and 
 - Requests
 - Visual Crossing Weather API
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 
 weather-api/
 │── main.py
@@ -36,16 +36,16 @@ weather-api/
 │── .gitignore
 │── test_redis.py
 
----
 
-## ⚙️ Setup Instructions
+
+## Setup Instructions
 
 ### 1. Clone the repository
 
 git clone https://github.com/47Doings/weather-api.git
 cd weather-api
 
----
+
 
 ### 2. Create virtual environment
 
@@ -58,15 +58,15 @@ venv\Scripts\activate
 Mac/Linux:
 source venv/bin/activate
 
----
+
 
 ### 3. Install dependencies
 
 pip install -r requirements.txt
 
----
 
-## 🔑 Environment Variables
+
+## Environment Variables
 
 Create a `.env` file in the root folder:
 
@@ -75,9 +75,9 @@ REDIS_HOST=your_redis_host
 REDIS_PORT=your_redis_port
 REDIS_PASSWORD=your_redis_password
 
----
 
-## ▶️ Run the project
+
+## Run the project
 
 uvicorn main:app --reload
 
@@ -85,9 +85,9 @@ Then open:
 
 http://127.0.0.1:8000/weather/Accra
 
----
 
-## 📡 Example API Response
+
+## Example API Response
 
 {
   "success": true,
@@ -100,9 +100,9 @@ http://127.0.0.1:8000/weather/Accra
   }
 }
 
----
 
-## 🧠 What I Learned
+
+## What I Learned
 
 - Building REST APIs with FastAPI
 - Working with external APIs
@@ -110,9 +110,9 @@ http://127.0.0.1:8000/weather/Accra
 - Backend error handling
 - Git & GitHub workflow
 
----
 
-## 🚀 Future Improvements
+
+## Future Improvements
 
 - Forecast endpoint (7-day weather)
 - Rate limiting system
@@ -120,8 +120,4 @@ http://127.0.0.1:8000/weather/Accra
 - Docker containerization
 - Cloud deployment (Render / Railway)
 
----
 
-## 👨‍💻 Author
-
-Built by 47Doings
