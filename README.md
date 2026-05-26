@@ -23,23 +23,6 @@ A simple Weather API built with FastAPI that fetches real-time weather data and 
 - Requests
 - Visual Crossing Weather API
 
-
-
-## Project Structure
-
-weather-api/
-│── main.py
-│── services/
-│   ├── weather.py
-│   ├── cache.py
-│── requirements.txt
-│── .gitignore
-│── test_redis.py
-
-
-
-## Setup Instructions
-
 ### 1. Clone the repository
 
 git clone https://github.com/47Doings/weather-api.git
